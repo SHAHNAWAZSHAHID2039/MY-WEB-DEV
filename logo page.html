@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      text-align: center;
+    }
+    button {
+      width: 30%;
+      padding: 10px;
+      background: #8e2de2;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: 0.3s;
+      align-content: center;
+    }
+
+    button:hover {
+      background: #4a00e0;}
+    input{
+        padding: 5px;
+        background-color: rgb(246, 245, 248);
+        font-style: italic;
+        margin-bottom: auto;
+      }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                login form
+            </legend>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required><br>
+            <label>password</label>
+            <input type="password" placeholder="Enter your password" required minlength="6"><br>
+            <button>Login</button>
+        </fieldset>
+    </form>
+</body>
+</html>
