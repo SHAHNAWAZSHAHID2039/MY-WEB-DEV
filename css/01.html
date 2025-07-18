@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background: linear-gradient(to right, #c3f483, #7ce1ee);
+    margin:auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: x-large;
+    margin: 10px;
+}
+.head{
+    background-color: rgb(59, 59, 252);
+    justify-items: center;
+    align-items: center;
+    padding: 30px;
+    color: aliceblue;
+    hyphenate-character: 1px;
+}
+ nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+ }
+h3{
+    color: green;
+    font-variant: small-caps;
+    font-size: large;
+}
+.para1,.para2,.para4,.para5{
+    border: 5px;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    background-color: rgb(240, 241, 239);
+    margin: 10px;
+    padding: 10px;
+}
+#highlight{
+    background-color: rgb(200, 247, 200);
+}
+ aside {
+      background: #d2f7a8;
+      padding: 10px;
+      margin-top: 10px;
+      border-left: 4px solid #87f40a;
+    }
+    figure{
+       text-align: center;
+        margin-top: 15px;
+    }
+    figcaption{
+        justify-items: center;
+    }
+    table{
+        height: 100px;
+    width: 1300px;
+    }
+    thead{
+        background-color: #065a14;
+        color: white;
+    }
+    footer{
+        text-align: center;
+        background-color: #065a14;
+        color: white;
+        padding-top: 20px;
+        margin: auto;
+    }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h2>MovieMania</h2>
+        <p><mark>Your daily dose of movies, reviews & fun!</mark></p>
+        <nav>
+      <a href="#reviews">Reviews</a> |
+      <a href="#shows">Showtimes</a> |
+      <a href="#form">Join</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+    </div>
+    <div class="container">
+    <div class="para1">
+        <h3>Latest Reviews</h3>
+        <h4>Inception(2010)</h4>
+        <h5><strong>Rating </strong>9/10</h5>
+        <p>A mind-bending thriller about dreams with in dreams.</p>
+        <blockquote>"You mustn't be afraid to dream a little bigger, darling</blockquote>
+        <h4>Insterstellar(2014)</h4>
+        <h5><strong> Rating </strong> 9.5/10</h5>
+        <p>Space exploration, time travel, and love beyond dimensions.</p>
+        <p>Time dalation causes 1 hour=7years(Einstein's Theory:E=mc<sup>2</sup>)</p>
+      <aside>
+        <p><u>Fun Fact:</u> Inception and Interstellar both use complex science concepts like gravity and relativity.</p>
+      </aside>
+        <details>
+            <summary>What Makes a Great Movies</summary>
+            <p>A great movie captures the audience emotionally and visually. It combines a 
+                strong storyline, believable characters, powerful acting, beautiful visuals, 
+                and emotional depth. Direction, music, and editing also play key roles. A truly great 
+                film leaves a lasting impression and connects with viewers on a human level.</p>
+        </details>
+    </div>
+    <div class="para2">
+        <h3>Movie Showtimes</h3>
+        <table border="1" cellspacing="1" cellpanding="50">
+            <thead>
+            <tr>
+                <th>Movies</th>
+                <th>Time</th>
+                <th>Screen</th>
+            </tr></thead>
+            <tr>
+                <th>Dun Part II</th>
+                <th>6:00 PM</th>
+                <th>Screen 1</th>
+            </tr>
+            <tr>
+                <th>Oppenheimer</th>
+                <th>9:00 PM</th>
+                <th>Screen 2</th>
+            </tr>
+            <tr >
+                <th colspan="2">Special Late Night Show</th>
+                <th>12:00 AM</th>
+            </tr>
+            <tr >
+                <th colspan="3">"Arrive 15 minutes early for trackers</th>
+            </tr>
+        </table>
+          <figure>
+        <img src="cinema.jpg" alt="Cinema Screen" width="300">
+        <figcaption>Our 4K Digital Theater</figcaption>
+      </figure>
+    </div>
+    <div class="para4">
+        <h3>Join Our Movies Club</h3>
+        <p>Full Name<input type="text" placeholder="Enter your Name" title="name input field" name="Text"><br></p>
+        <p>Email<input type="email" placeholder="Enter youe Email" title="name input field " name="email"><br></p>
+        <p>Phone<input type="tel" placeholder="Enter youe Phone" title="name input field" name="tel"><br></p>
+        <p>Date of Birth<input type="date"><br></p>
+        <p>Preferred Time<input type="time"><br></p>
+        <p>Password<input type="password" placeholder="Enter your Password" title="name input field" name="password"><br></p>
+        <aside><pre>let movies = "Inception";
+console.log("Now watching:" + movie); </pre></aside>
+<p><strong> Shortcut to submit:</strong> <kbd>ctrl</kbd> <kbd>+</kbd> <kbd>Emter</kbd></p>
+    </div>
+    <div class="para5">
+        <h3>
+            Contact & Downloads
+        </h3>
+        <p>Email:<a href="helo@moviemania.com">helo@moviemania.com</a></p>
+        <p>Call<a href="+987654321">+987654321</a></p>
+       <strong><a href="Download Movie Guide (PDF)">Download Movie Guide (PDF)</a>
+        <p><a href="Back To Top">Back To Top</a></p></strong>
+    </div>
+    </div>
+    <footer>&copy;2025 MoviesMania | All right reserved.
+        <p><small>Created using pure HTML. semantic tags only. </small></p>
+    </footer>
+</body>
+</html>
